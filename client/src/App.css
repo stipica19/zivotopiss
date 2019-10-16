@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.profil{
+  background-color: #23527c
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 2em;
+  opacity: .8;
+
+
+}
+.desno{
+
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  
+  padding: 10px;
+}
+p, ul {
+  font-family: 'Sanchez', serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --yellowish: #eeb14f;
+  --dark-purple: #263547;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  width: 100%;
+}
+.logo {
+  
+  width: 32px;
+  height: 32px;
+  margin: 20px;
+}
+.title-holder {
+  align-items: center;
+}
+.nama {
+  color: var(--yellowish);
+  font-family: 'Montserrat', serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+}
+.designare {
+  color: #ffffff;
+  font-family: 'Sanchez', serif;
+  text-transform: uppercase;
+}
+.content-body {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper {
+  margin: 20px;
+}
+.section-left {
+  flex: 1;
+  background-color: rgb(8, 71, 118);
+}
+.section-left ul {
+  list-style: none;
+  margin-left: -40px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  font-family: 'Montserrat', serif;
+  letter-spacing: 2px;
+  color : rgb(8, 71, 118);
+}
+.left-h2 {
+  color : white;
+}
+.lista-p {
+  color : rgb(8, 71, 118);
+  font-size: 18px;
+
+}
+divv {
+  display: table;
+}
+.link-profa  :hover{
+  color :black; 
+  text-transform: uppercase;
+}
+
+img {
+  vertical-align: middle;
+  display: table-cell;
+}
+span {
+  vertical-align: middle;
+  display: table-cell;
+}
+.slika img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-family: 'Sanchez', serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+h4 {
+  font-family: 'Sanchez', serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin-top: -10px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.section-right {
+  flex: 2;
+}
+.section-right .wrapper {
+  margin-left: 50px;
+}
+.section-right ul {
+  margin-left: -20px;
+}
+.section-right h2 {
+  color: var(--yellowish);
+  font-weight: bold;
+}
+.gpa {
+  margin-top: -15px;
+}
+.footer {
+  background-color: var(--dark-purple);
+}
+.ps {
+  color: #ffffff;
+}
+
+  .lista-studija{
+    list-style-type: none;
+  }
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form button.small {
+  display: inline-block;
+  width: auto;
+  padding: 0 20px;
+  background-color: #777;
+  font-size: 14px;
+}
+form button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 5px;
+  background-color: #84c00c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+form button:hover {
+  background-color: #669509;
+}
+
+form button:disabled {
+  background-color: #dbf99f;
+  color: #333;
+}
+form button.small:hover {
+  background-color: #999;
+}
+
+.shareholder {
+  display: flex;
+  direction: row;
+  align-items: center;
+}
+
+.shareholder button {
+  margin: 0;
+  margin-left: 10px;
+}
+.pagination {
+  margin-top: 25px;
+}
+.pagination span {
+cursor: pointer;
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ddd;
+}
+
+.pagination span.active {
+background-color: #0099FF;
+color: white;
+border: 1px solid #0099FF;
+}
+.contact-links li {
+  margin-bottom: 15px;
+}
+.profileLinks li a {
+  text-decoration: none;
+  color: #000;
+}
+.profileLinks li a:hover {
+  color: #23527c;
+}

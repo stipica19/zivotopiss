@@ -1,0 +1,33 @@
+{
+  "name": "zivotopisi",
+  "version": "1.0.0",
+  "description": "web app sa zivotopisima profesora sveucilista u mostaru",
+  "main": "app.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run app\" \"npm run client\""
+  },
+  "author": "jr",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.2",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "generate-password": "^1.4.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.12",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
+  }
+}
