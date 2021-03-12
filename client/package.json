@@ -7,7 +7,7 @@
     "@progress/kendo-react-dropdowns": "^3.4.1-dev.201909171716",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "jspdf-react": "^1.0.11",
     "react": "^16.9.0",
     "react-autocomplete-input": "^1.0.12",
